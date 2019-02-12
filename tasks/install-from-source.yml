@@ -43,7 +43,7 @@
   with_items:
     - ./configure --enable-shared
     - make
-    - sudo make install
+    - make install
 
 - name: Add ruby symlinks.
   file:
